@@ -1,0 +1,137 @@
+* {
+  font-family: Orbitron;
+  font-weight: 500;
+  font-size: 20px;
+ 
+}
+.navbar-container > div > img {
+  max-width: 70%;
+}
+
+.navbar-container div > img {
+
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+.search-icon {
+  position: relative;
+  top: 40px;
+  right: 40px;
+}
+
+.nav-button {
+  font-family: Poppins;
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 150px;
+}
+
+.square img {
+  /* z-index: -1; */
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+
+.star img {
+  position: absolute;
+  left: 1100px;
+  height: 50px;
+  width: 50px;
+}
+
+.hero-container > div > img {
+  position: absolute;
+  height: 400px;
+  bottom: 30px;
+  left: 75px;
+}
+
+.globe img {
+  position: relative;
+  height: 50px;
+  left: 400px;
+  bottom: 270px;
+}
+
+.hero-container-right {
+  position: relative;
+  text-align: center;
+  left: 250px;
+  bottom: 250px;
+}
+
+.hero-heading {
+  font-size: 50px;
+  font-weight: bold;
+  /* position: relative; */
+}
+
+.hero-description {
+  position: relative;
+  font-family: Poppins;
+  color: #656565;
+  font-size: 12px;
+
+  width: 600px;
+  /* height: 300px; */
+  left: 300px;
+}
+
+.hero-container-right > div {
+  /* border: 10px solid red; */
+  position: relative;
+  top: 50px;
+}
+
+.hero-container-right > div .button-email {
+  background-color: transparent;
+  border-radius: 10px;
+  color: #3d3d3d;
+}
+
+.hero-container-right > div .button-join {
+  background-color: black;
+  border-radius: 10px;
+
+  color: white;
+}
+.contact-heading {
+  position: relative;
+  top: 50px;
+}
+
+.icons {
+  position: relative;
+  top: 50px;
+}
+
+.icons span {
+  margin: 10px;
+}
+
+.icons img {
+  width: 30px;
+}
+
+.list-item:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+  /* font-size: 25px; */
+}
+
+.contact-heading {
+  font-family: Poppins;
+  color: #545454;
+}
